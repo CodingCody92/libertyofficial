@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    margin: 1.5em;
+    color: #253a7c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 4.4rem;
+}
+
+
+/* .policy-container {
+    margin-top: 1em;
+} */
+
+.policy {
+    margin: auto;
+    text-align: center;
+    width: 80%;
+}
+
+.policy p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #0e0e0e;
+   margin-bottom: 30px;
+}
+
+.specific {
+    color: #253a7c;
+    font-weight: bold;
+}
+
+.policy-title {
+    text-transform: uppercase;
+    color: #253a7c;
+    /* margin-left: 10px; */
+}
+
+.contact-policy {
+    margin-bottom: 1.5em;
+}
+
+.contact-policy > p {
+    margin: 0;
+    font-style: italic;
+}

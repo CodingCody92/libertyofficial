@@ -1,0 +1,78 @@
+.for-us {
+    text-align: center;
+    /* width: 960px; */
+    margin: auto;
+    margin-top: 2.2em;
+}
+
+.for-us p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 960px;
+}
+
+.for-us h4 {
+    margin-bottom: 1em;
+    color: #253a7c;
+}
+
+.hr {
+    max-width: 100%;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfcfc;
+}
+
+.social-img {
+    max-width: 20px;
+    max-height: 20px;
+}
+
+.career-img {
+    width: 2000px;
+}
+
+benefit-color {
+    background-color: rgb(248, 248, 248);
+}
+
+.package-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.package {
+    max-height: 600px;
+    max-width: 500px;
+    margin: 2em;
+    text-align: center;
+}
+
+.package .benefit {
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.package p {
+   font-weight: bold;
+}
+
+
+.social a {
+    margin: 5px;
+}
+
+@media(max-width: 565px) {
+    .social {
+        padding: 20px;
+    }
+}
+
+@media(max-width: 830px) {
+    .package-container {
+        flex-wrap: wrap;
+    }
+}
